@@ -1,20 +1,4 @@
 
-Muizzyranking
-/
-alx-higher_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-alx-higher_level_programming/0x08-python-more_classes/9-rectangle.py
-@Muizzyranking
-Muizzyranking End of task
- 1 contributor
-Executable File  110 lines (94 sloc)  3.39 KB
 #!/usr/bin/python3
 # 9-rectangle.py
 """Defines a Rectangle class."""
