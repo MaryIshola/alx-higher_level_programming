@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """Solves the N-queens puzzle.
 Determines all possible solutions to placing N
@@ -24,6 +23,7 @@ def init_board(n):
     return (board)
 
 
+
 def board_deepcopy(board):
     """Return a deepcopy of a chessboard."""
     if isinstance(board, list):
@@ -40,8 +40,6 @@ def get_solution(board):
                 solution.append([r, c])
                 break
     return (solution)
-
-
 def xout(board, row, col):
     """X out spots on a chessboard.
     All spots where non-attacking queens can no
