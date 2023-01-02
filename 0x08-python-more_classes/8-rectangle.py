@@ -1,3 +1,4 @@
+
 #!/usr/bin/python3
 # 8-rectangle.py
 """Defines a Rectangle class."""
@@ -83,7 +84,7 @@ class Rectangle:
         if self.__width == 0 or self.__height == 0:
             return ("")
 
-rect = []
+        rect = []
         for i in range(self.__height):
             [rect.append(str(self.print_symbol)) for j in range(self.__width)]
             if i != self.__height - 1:
