@@ -1,3 +1,4 @@
+
 #!/usr/bin/python3
 """Solves the N-queens puzzle.
 Determines all possible solutions to placing N
@@ -21,6 +22,8 @@ def init_board(n):
     [board.append([]) for i in range(n)]
     [row.append(' ') for i in range(n) for row in board]
     return (board)
+
+
 def board_deepcopy(board):
     """Return a deepcopy of a chessboard."""
     if isinstance(board, list):
@@ -89,6 +92,7 @@ def xout(board, row, col):
         board[r][c] = "x"
         c -= 1
 
+
 def recursive_solve(board, row, queens, solutions):
     """Recursively solve an N-queens puzzle.
     Args:
@@ -129,4 +133,3 @@ if __name__ == "__main__":
     solutions = recursive_solve(board, 0, 0, [])
     for sol in solutions:
         print(sol)
-                                        
